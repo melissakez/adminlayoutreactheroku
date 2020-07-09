@@ -9,7 +9,10 @@ import People from "./component/People";
 import Contblock from "./component/Contblock";
 import Form from "./component/Form";
 
+import $ from 'jquery';
+
 class App extends Component {
+  
   render() {
     return (
       <div>

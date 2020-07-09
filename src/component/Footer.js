@@ -4,7 +4,7 @@ var loadjs = require('loadjs');
 
 class Footer extends Component {
   componentWillMount() {
-    loadjs(['..src/assets/js/scripts.js'], 
+    loadjs(['../assets/js/scripts.js'], 
     function() {
     });
   }
